@@ -1,19 +1,13 @@
 /*
-
 As of 09/09/2019
-
 vault type: cid = 5261
 diamond type: cid = 5262
 email type: cid = 5264
 creator code: cid = 5263
 boost type: 5721
-
 After login, navigate to
 https://2kgames.crowdtwist.com/ -- This is a blank page, as there is no landing page
 https://2kgames.crowdtwist.com/widgets/t/code-redemption/9902/#2 -- This is one of the components of the redemption page, if you'd rather see that
-
-
-
 */
 
 var badcodes = [];
@@ -85,7 +79,45 @@ var EMAILS = [
     "DUCTTAPEMOD",
     "MADSKILLZ",
     "ITSHERE",
-	"JABBER",
+    "JABBER",
+    "EDEMONSTER",
+    "FIGHTFORSANCTUARY",
+    "THEBORDERLANDSSHOW",
+    "DONTFORGET",
+    "ALLBORDERLANDSALLDAY",
+    "PS4MAYHEM",
+    "MAYHEM",
+    "ITSABOUTTIME",
+    "OVERABILLION",
+    "DIGISTRUCT",
+    "OVERONEBILLION",
+    "ALMOSTTHERE",
+    "UNBLINKINGEYE",
+    "JABBER",
+    "ITSHERE",
+    "MADSKILLZ",
+    "DUCTTAPEMOD",
+    "ABCEASYAS123",
+    "FORTNITEXMAYHEM",
+    "OVERCLOCKED",
+    "BUILDURSQUAD",
+    "LESSTHANTHREE",
+    "DASHERZ",
+    "POWERUPEMAIL",
+    "FRESHBOOTY",
+    "ONTHEHUNT",
+    "MYMAIN",
+    "CLAPTASTIC",
+    "SOHAPPYTOGETHER",
+    "HEYSUGAR",
+    "2KLOVE",
+    "BL3ATE3",
+    "FIGHT4SANCTUARY",
+    "LOOTLOOTLOOT",
+    "JOYPUKE",
+    "BL3REVEAL",
+    "BL3WELCOME",
+    "ALLABOARD",
 	"Unblinkingeye"
 ]
 
@@ -114,7 +146,18 @@ var CREATORS = [
     "GRIMMBONEZE3",
     "CohhVIP",
     "Cure4Kids",
-    "GREGORONKH"
+    "GREGORONKH",
+    "GRIMMBONEZE3",
+    "LUCKYBONEZE3",
+    "NAYSYE3",
+    "CURE4KIDS",
+    "GREGORONKH",
+    "DOKTORFROID-BL3LAUNCH",
+    "EARLYACCESS",
+    "BONJWA-BL3LAUNCH",
+    "PIETSMIET-BL3LAUNCH",
+    "LARALOFT-BL3LAUNCH",
+    "COHHVIP"
 ]
 
 var VAULTS = [
@@ -204,6 +247,35 @@ var VAULTS = [
     "vip-paxagainstthewall",
     "SEVENDAYS",
     "AIRLEMAGVIP",
+    "MAYHEM",
+    "ITSABOUTTIME",
+    "DIGISTRUCT",
+    "PLAYERONEVIP",
+    "AIRLEMAGVIP",
+    "TWOWEEKS",
+    "SEVENDAYS",
+    "DREAMLANDVIP",
+    "INTERTOYSVIP",
+    "ALLYOURGAMESVIP",
+    "NEDGAMEVIP",
+    "YOURGAMEZONEVIP",
+    "GAMEMANIAVIP",
+    "EHRENMANN",
+    "BOLVIP",
+    "MEDIAMARKTVIP",
+    "SMARTOYSVIP",
+    "JVMVIP",
+    "CHILDRENOFTHEVAULT",
+    "IGNVIP",
+    "PWR2PLYRS",
+    "GAMEVIP",
+    "JOYPUKE",
+    "LOADINGBAR",
+    "ITSBEEN",
+    "MYCHILIRECIPE",
+    "THEBORDERLANDSAREWILD",
+    "CAOSENMGW",
+    "RISENGRIND",
 	"Dreamlandvip"
 ]
 
@@ -309,7 +381,6 @@ async function main() {
 main();
 
 /*
-
 await fetch('https://2kgames.crowdtwist.com/code-redemption-campaign/redeem?cid=5263', {
      method: 'POST',
      body: JSON.stringify({
@@ -319,5 +390,4 @@ await fetch('https://2kgames.crowdtwist.com/code-redemption-campaign/redeem?cid=
          'Content-type' : 'application/json'
      }
 })
-
 */
