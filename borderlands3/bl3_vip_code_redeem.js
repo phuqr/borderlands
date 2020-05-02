@@ -1,6 +1,6 @@
 /*
 
-As of 09/09/2019
+As of 05/02/2020 with dupes
 
 vault type: cid = 5261
 diamond type: cid = 5262
